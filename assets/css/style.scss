@@ -144,13 +144,13 @@ body {
     padding-left: 2rem;
     height: 100vh;
     overflow-y: auto;
-    background-image: url('/assets/svgs/illustration.svg');
+    background-image: url('../../assets/images/illustration.png');
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 50% 73%;
+    background-size: auto 70%;
     @media (max-width: 480px) {
         padding-left: 1rem;
-        background-image: unset;
+        background-image: unset; 
     }
     
     &__header {
